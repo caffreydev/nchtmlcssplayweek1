@@ -10,7 +10,7 @@ img {
 
     }
 
-img#zuck {
+#zuck {
     width: 15vw;
     height: 22vh;
     
@@ -62,7 +62,7 @@ figcaption {
 
 }
 
-div.contain {
+.contain {
     display: grid;
     grid-template-columns: 50vw 50vw;
     grid-template-rows: auto;
