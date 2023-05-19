@@ -3,11 +3,25 @@ body {
 }
 
 img {
-    width: 50vw;
-    height: auto;
-    border-radius: 10%
+    width: 45vw;
+    height: 40vh;
+    border-radius: 10%;
+    padding-top: 3vh;
+
+    }
+
+img#zuck {
+    width: 15vw;
+    height: 22vh;
+    
+    
 }
 
+iframe {
+        width: 45vw;
+        height: 40vh;
+        padding-top: 3vh;
+    }
 
 ul {
     color:navy
@@ -17,8 +31,12 @@ ol {
     color: darkgreen
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: bitner, penna, 'Trebuchet MS'
+h1, h2, h3, h5, h6 {
+    font-family: bitner, penna, 'Trebuchet MS';
+    text-align: center;
+    color: whitesmoke;
+    -webkit-text-stroke: 1px black;
+    font-weight: bolder
 }
 
 a {
@@ -29,3 +47,25 @@ hr {
     
     border-top: black double 10px;
 }
+
+h4 {
+    font-family: bitner, penna, 'Trebuchet MS';
+    text-align: center;
+    color: whitesmoke;
+    -webkit-text-stroke: 0.5px black;
+    font-style: italic;
+ 
+}
+
+figcaption {
+    font-style: italic;
+
+}
+
+div.contain {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: auto;
+
+}
+
