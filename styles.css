@@ -1,0 +1,31 @@
+body {
+    background-color: blanchedalmond;
+}
+
+img {
+    width: 50vw;
+    height: auto;
+    border-radius: 10%
+}
+
+
+ul {
+    color:navy
+}
+
+ol {
+    color: darkgreen
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: bitner, penna, 'Trebuchet MS'
+}
+
+a {
+    font-size:large
+}
+
+hr {
+    
+    border-top: black double 10px;
+}
